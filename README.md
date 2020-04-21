@@ -2,7 +2,6 @@
 
 - [Abstract](https://github.com/KennyYou/The_Project#abstract)
 - [General Setup](https://github.com/KennyYou/The_Project#general-setup)
-- [Needed Packages](https://github.com/KennyYou/The_Project#needed-packages)
 - [Setting Up the General Network](https://github.com/KennyYou/The_Project#setting-up-the-general-network)
   - [Setting a VM’s Bridged Adapter](https://github.com/KennyYou/The_Project#setting-a-vms-bridged-adapter)
   - [Connecting to Machines on the Network](https://github.com/KennyYou/The_Project#connecting-to-machines-on-the-network)
@@ -21,13 +20,12 @@
 ## Abstract
 Potato Situation’s project offers a stock market website that allows users to invest in stocks with fake money they receive when they first sign up. Each user can buy and sell stocks within their own ecosystem or with the general market, and can search for the stock(s) they would like to purchase. It also offers a currency conversion feature, which converts a region’s currency into another region’s exchange rate. Every user has their own profile, and the website graphs out their data to interpret the presented data visually and evaluates their portfolio to let them know how well their stocks are performing.
 
+**Disclaimer:** **_This project will not be updated further and this software may be used as-is._**
+
 ## General Setup
 This project requires VirtualBox (a free virtualization application) and Ubuntu Linux 18.04 LTS (the latest long-term support release at the time of this writing). It also requires four main virtual machines: the front-end (FE), the back-end (BE), the demilitarized zone (DMZ), and the deployment server (DEP). A router will be necessary to connect said virtual machines to each other; the speed and transfer rate of the router do not matter, but a hard-wired Ethernet connection is recommended as it allows a more consistent connection as opposed to Wi-Fi.
 
 There are also three main branches: development (Dev), quality assurance (QA), and production (Prod). The FE, BE, and DMZ all use these three branches and require a hot standby (HSB) on the Prod branch. DEP, on the other hand, does not follow this rule as it needs to deploy the packages from Dev to QA and QA to Prod.
-
-## Needed Packages
-TBA
 
 ## Setting Up the General Network
 ### Setting a VM’s Bridged Adapter
