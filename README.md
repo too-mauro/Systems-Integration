@@ -1,21 +1,21 @@
 # Potato Situation's Final Systems Integration Project
 
-- [Abstract](https://github.com/KennyYou/The_Project#abstract)
-- [General Setup](https://github.com/KennyYou/The_Project#general-setup)
-- [Setting Up the General Network](https://github.com/KennyYou/The_Project#setting-up-the-general-network)
-  - [Setting a VM’s Bridged Adapter](https://github.com/KennyYou/The_Project#setting-a-vms-bridged-adapter)
-  - [Connecting to Machines on the Network](https://github.com/KennyYou/The_Project#connecting-to-machines-on-the-network)
-- [Setting Up a RabbitMQ Server](https://github.com/KennyYou/The_Project#setting-up-a-rabbitmq-server)
-  - [Install Erlang](https://github.com/KennyYou/The_Project#install-erlang)
-  - [Install RabbitMQ](https://github.com/KennyYou/The_Project#install-rabbitmq)
-- [Setting Up a MySQL Database](https://github.com/KennyYou/The_Project#setting-up-a-mysql-database)
+- [Abstract](https://github.com/too-mauro/Systems-Integration#abstract)
+- [General Setup](https://github.com/too-mauro/Systems-Integration#general-setup)
+- [Setting Up the General Network](https://github.com/too-mauro/Systems-Integration#setting-up-the-general-network)
+  - [Setting a VM’s Bridged Adapter](https://github.com/too-mauro/Systems-Integration#setting-a-vms-bridged-adapter)
+  - [Connecting to Machines on the Network](https://github.com/too-mauro/Systems-Integration#connecting-to-machines-on-the-network)
+- [Setting Up a RabbitMQ Server](https://github.com/too-mauro/Systems-Integration#setting-up-a-rabbitmq-server)
+  - [Install Erlang](https://github.com/too-mauro/Systems-Integration#install-erlang)
+  - [Install RabbitMQ](https://github.com/too-mauro/Systems-Integration#install-rabbitmq)
+- [Setting Up a MySQL Database](https://github.com/too-mauro/Systems-Integration#setting-up-a-mysql-database)
 
-- [Creating the Back-End](https://github.com/KennyYou/The_Project#creating-the-back-end)
-- [Creating the Front-End](https://github.com/KennyYou/The_Project#creating-the-front-end)
-  - [Setting Up an Apache2 Server](https://github.com/KennyYou/The_Project#setting-up-an-apache2-server)
-- [Creating the Deployment Server](https://github.com/KennyYou/The_Project#creating-the-deployment-server)
-- [Getting Distributed Logging Set Up](https://github.com/KennyYou/The_Project#getting-distributed-logging-set-up)
-- [Using Listeners with systemd](https://github.com/KennyYou/The_Project#using-listeners-with-systemd)
+- [Creating the Back-End](https://github.com/too-mauro/Systems-Integration#creating-the-back-end)
+- [Creating the Front-End](https://github.com/too-mauro/Systems-Integration#creating-the-front-end)
+  - [Setting Up an Apache2 Server](https://github.com/too-mauro/Systems-Integration#setting-up-an-apache2-server)
+- [Creating the Deployment Server](https://github.com/too-mauro/Systems-Integration#creating-the-deployment-server)
+- [Getting Distributed Logging Set Up](https://github.com/too-mauro/Systems-Integration#getting-distributed-logging-set-up)
+- [Using Listeners with systemd](https://github.com/too-mauro/Systems-Integration#using-listeners-with-systemd)
 
 ## Abstract
 Potato Situation’s project offers a stock market website that allows users to invest in stocks with fake money they receive when they first sign up. Each user can buy and sell stocks within their own ecosystem or with the general market, and can search for the stock(s) they would like to purchase. It also offers a currency conversion feature, which converts a region’s currency into another region’s exchange rate. Every user has their own profile, and the website graphs out their data to interpret the presented data visually and evaluates their portfolio to let them know how well their stocks are performing.
